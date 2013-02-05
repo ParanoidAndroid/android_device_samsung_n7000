@@ -1,2 +1,2 @@
-touch.deviceType = pointer
+touch.deviceType = touchScreen
 touch.orientationAware = 1
