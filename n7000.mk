@@ -42,6 +42,29 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.exynos4
 
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    Torch \
+    openvpn \
+    e2fsck \
+    mke2fs \
+    tune2fs \
+    bash \
+    vim \
+    nano \
+    htop \
+    powertop \
+    lsof \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh \
+    rsync
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
