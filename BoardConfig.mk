@@ -29,8 +29,6 @@ TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-linux-androideabi-4.6
 
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/n7000/overlay/include
-
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxynote,n7000,N7000,GT-N7000
 
